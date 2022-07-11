@@ -1,11 +1,32 @@
+body{
+    margin:0%
+       
+}
+
+
 img{
     width:100px;
     height:100px;
+    
+    
+}
+
+.card img{
+    border: 5px solid #3882F6;
+    border-radius: 10%; 
+    
+}
+
+.picture img{
+    width:500px; 
+    height:200px;
 }
 
 .header{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap:450px;
+   
 }
 
 ul{
@@ -20,18 +41,66 @@ ul{
     justify-content: center;
     gap:50px;
     padding: 50px;
+
+}
+
+.header, .desc{
+    background-color: #1f2937;
+    color: white;
+}
+
+.text-header{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+  
+}
+
+.sub-text{
+    color:#E5E7EB;
+    font-size: 18px;
+   
+    
+
+}
+
+
+button{
+    background-color:#3882F6;
+    color:#E5E7EB;
+    font-weight: bold;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 10%;
+    
+}
+
+.sign button{
+    border: #E5E7EB solid 2px;
+}
+
+.desc button{
+    margin-top:10px;
 }
 
 .container-header{
     display:flex;
     justify-content: center;
     font-size: 70px;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+    padding-top:30px;
 }
+
 .container{
     display:flex;
     justify-content: center;
     gap:50px;
     padding: 50px;
+    
 }
 
 .shop-motto{
@@ -39,25 +108,63 @@ ul{
     flex-direction: column;
     align-items: center;
     padding:50px;
+    background-color: #E5E7EB;
 }
 
 .quote{
-    font-size: 50px;
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+    
+
 }
 
 .famous{
     display:flex;
     padding:50px;
     margin-left:28cm;
-    font-size: 30px;
-    font-family: fantasy;
+    font-size: 20px;
+    font-weight: bold;
+    
+
 }
+
+.sign{
+    display:flex;
+    justify-content: center;
+    gap:150px;
+    padding:30px;
+    background-color: #3882F6;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    border-radius:10px;
+    color:#E5E7EB;
+   
+    
+}
+
+.sign-header{
+    font-weight:bold;
+}
+
+.sign-subtext{
+    font-size: x-small;
+}
+
+
 
 .footer{
     display:flex;
     justify-content: center;
-    gap:50px;
+    padding:30px;
+    background-color: #1f2937;
+    color:#E5E7EB;
+    
 }
+
+
 
 
 
